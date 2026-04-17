@@ -11,9 +11,10 @@ int main()
 		BeginDrawing();
 		ClearBackground(RAYWHITE);
 
-		DrawText("My first window!", 190, 200, 20, 
-			{255,0,200,255}
-			);
+
+		
+		DrawRectangle(75, 75, 100, 100, {255, 0, 0, 127});
+		DrawRectangle(50, 50, 100, 100, {0, 255, 0, 127});
 
 		EndDrawing();
 	
