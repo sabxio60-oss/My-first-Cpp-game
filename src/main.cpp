@@ -10,17 +10,17 @@ int main()
 	{
 		BeginDrawing();
 		ClearBackground(RAYWHITE);
-
-
-		
-		DrawRectangle(75, 75, 100, 100, {255, 0, 0, 127});
+				
+				
 		DrawRectangle(50, 50, 100, 100, {0, 255, 0, 127});
+		DrawRectangle(75, 75, 100, 100, { 255, 0, 0, 127 });
 
 		EndDrawing();
-	
+		
+		
 	}
-
 	CloseWindow();
+	
 
 	return 0;
 }
