@@ -1,2 +1,1 @@
-"# My First CPP Game" 
-"# My-first-Cpp-game" 
+# My First CPP Game
